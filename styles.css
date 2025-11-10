@@ -10,3 +10,6 @@ button {
   background: #111; color: #fff; cursor: pointer;
 }
 button:hover { opacity: .92; }
+
+:focus { outline: 3px solid #94a3b8; outline-offset: 2px; }
+input[type="text"] { border: 1px solid #cbd5e1; border-radius: 8px; background: #fff; }
