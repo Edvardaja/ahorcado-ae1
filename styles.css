@@ -1,0 +1,15 @@
+:root { font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+body { max-width: 720px; margin: 48px auto; padding: 0 16px; line-height: 1.5; background: #fafafa; }
+h1   { font-size: 1.8rem; margin: 0 0 .75rem; }
+p    { margin: .5rem 0; }
+form { display: flex; gap: 8px; align-items: center; margin: 12px 0; }
+
+input[type="text"] { width: 80px; text-align: center; padding: .5rem .6rem; font-size: 1.1rem; }
+button {
+  padding: .6rem .9rem; border-radius: 10px; border: 1px solid #111;
+  background: #111; color: #fff; cursor: pointer;
+}
+button:hover { opacity: .92; }
+
+:focus { outline: 3px solid #94a3b8; outline-offset: 2px; }
+input[type="text"] { border: 1px solid #cbd5e1; border-radius: 8px; background: #fff; }
